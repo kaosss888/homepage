@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c376d460-750f-4c8e-b773-e5e817cf70ec" name="Default Changelist" comment="" />
+    <list default="true" id="c376d460-750f-4c8e-b773-e5e817cf70ec" name="Default Changelist" comment="feat: spring cloud demo - eureka, zuul, common, course-service">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/src/main/java/com/demo/homepage/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/classes/com/demo/homepage/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/homepage-eureka-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/homepage-eureka-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/src/main/java/com/demo/homepage/CourseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/src/main/java/com/demo/homepage/CourseInfosRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/src/main/java/com/demo/homepage/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/target/classes/com/demo/homepage/CourseInfo$CourseInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/target/classes/com/demo/homepage/CourseInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/target/classes/com/demo/homepage/CourseInfosRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/target/classes/com/demo/homepage/UserInfo$UserInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-common/target/classes/com/demo/homepage/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/java/com/demo/homepage/HomepageCourseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/java/com/demo/homepage/controller/HomepageCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/java/com/demo/homepage/dao/HomepageCourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/java/com/demo/homepage/entity/HomepageCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/java/com/demo/homepage/service/ICourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/java/com/demo/homepage/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/test/java/com/demo/homepage/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/test/java/com/demo/homepage/service/HomepageCourseServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/com/demo/homepage/HomepageCourseApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/com/demo/homepage/controller/HomepageCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/com/demo/homepage/dao/HomepageCourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/com/demo/homepage/entity/HomepageCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/com/demo/homepage/service/ICourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/classes/com/demo/homepage/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/test-classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/test-classes/com/demo/homepage/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/target/test-classes/com/demo/homepage/service/HomepageCourseServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-zuul/src/main/java/com/demo/homepage/ZuulGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-zuul/src/main/java/com/demo/homepage/filter/AccessLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-zuul/src/main/java/com/demo/homepage/filter/PreRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-spring-cloud/homepage-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/homepage-spring-cloud/target/" />
     <ignored path="$PROJECT_DIR$/homepage-spring-cloud/homepage-eureka/target/" />
@@ -21,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -87,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/test/java/com/demo/homepage/service/HomepageCourseServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -113,6 +159,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,12 +206,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="284" />
     <option name="y" value="102" />
     <option name="width" value="1414" />
     <option name="height" value="882" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -207,6 +257,25 @@
               <item name="homepage-course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homepage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homepage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="homepage" type="b2602c69:ProjectViewProjectNode" />
@@ -389,7 +458,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566179145161</updated>
-      <workItem from="1566179150596" duration="16128000" />
+      <workItem from="1566179150596" duration="16963000" />
     </task>
     <servers />
   </component>
@@ -408,29 +477,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16128000" />
+    <option name="totallyTimeSpent" value="16963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.24972437" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.24972437" />
       <window_info id="Structure" order="1" sideWeight="0.5005192" side_tool="true" weight="0.24972437" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Run Dashboard" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32848233" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -728,14 +797,14 @@
     <entry file="file://$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/test/java/com/demo/homepage/service/HomepageCourseServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -744,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage-spring-cloud/homepage-service/homepage-course/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
